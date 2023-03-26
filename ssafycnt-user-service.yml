@@ -49,9 +49,9 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
-  data:
-    mongodb:
-      uri: mongodb://127.0.0.1:27017/ssafycnt
+  # data:
+  #   mongodb:
+  #     uri: mongodb://127.0.0.1:27017/ssafycnt
       
 # p6spy? ?? SQL ?? ??
 decorator:
