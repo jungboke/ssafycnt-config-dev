@@ -10,7 +10,7 @@ eureka:
 
 spring:
   application:
-    name: ssafycnt-calendar-service
+    name: ssafycnt-trade-service
   # redis:
   #   host: 172.31.0.183
   #   port: 6379
@@ -34,9 +34,9 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
-  data:
-    mongodb:
-      uri: mongodb://172.31.0.183:27017/ssafycnt
+  # data:
+  #   mongodb:
+  #     uri: mongodb://172.31.0.183:27017/ssafycnt
 
 # p6spy? ?? SQL ?? ??
 decorator:
