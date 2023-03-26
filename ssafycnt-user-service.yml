@@ -83,5 +83,3 @@ management:
       exposure:
         include: refresh, health, beans, busrefresh, info, metrics, prometheus
 
-greeting:
-  message: Welcome to the ssafycnt.
