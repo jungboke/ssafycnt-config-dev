@@ -6,28 +6,28 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     service-url:
-      defaultZone: http://127.0.0.1:8761/eureka
+      defaultZone: http://172.26.2.118:8761/eureka
 
 spring:
   application:
     name: ssafycnt-news-service
   # redis:
-  #   host: 127.0.0.1
+  #   host: 172.26.2.118
   #   port: 6379
   #   timeout: 6
   rabbitmq:
-    host: 127.0.0.1
+    host: 172.26.2.118
     port: 5672
     username: guest
     password: guest
   # zipkin:
-  #   base-url: http://127.0.0.1:9411
+  #   base-url: http://172.26.2.118:9411
   #   enabled: true
   # sleuth:
   #   sampler:
   #   probability: 1.0
   datasource:
-    url: jdbc:mysql://127.0.0.1:3307/newsdb?serverTimezone=UTC&characterEncoding=UTF-8&useSSL=false&allowPublicKeyRetrieval=true
+    url: jdbc:mysql://172.26.2.118:3307/newsdb?serverTimezone=UTC&characterEncoding=UTF-8&useSSL=false&allowPublicKeyRetrieval=true
     username: root
     password: 1234
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -36,7 +36,7 @@ spring:
       ddl-auto: update
   # data:
   #   mongodb:
-  #     uri: mongodb://127.0.0.1:27017/ssafycnt
+  #     uri: mongodb://172.26.2.118:27017/ssafycnt
       
 # p6spy? ?? SQL ?? ??
 decorator:

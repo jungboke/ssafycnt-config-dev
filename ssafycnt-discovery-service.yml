@@ -10,12 +10,12 @@ spring:
   application:
     name: ssafycnt-discovery-service
   rabbitmq:
-    host: 127.0.0.1
+    host: 172.26.2.118
     port: 5672
     username: guest
     password: guest
   # zipkin:
-  #   base-url: http://127.0.0.1:9411
+  #   base-url: http://172.26.2.118:9411
   #   enabled: true
   # sleuth:
   #   sampler:
