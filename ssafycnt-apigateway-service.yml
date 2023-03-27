@@ -70,4 +70,4 @@ management:
 #   documentation:
 #     swagger-ui:
 #       enabled: true
-#       url: https://ssafycnt.shop/**/v3/api-docs
+#       url: https://ssafycnt.site/**/v3/api-docs
