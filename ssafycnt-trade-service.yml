@@ -27,7 +27,7 @@ spring:
   #   sampler:
   #   probability: 1.0
   datasource:
-    url: jdbc:mysql://172.31.0.183:3307/tradedb?serverTimezone=UTC&characterEncoding=UTF-8&useSSL=false&allowPublicKeyRetrieval=true
+    url: jdbc:mysql://127.0.0.1:3307/tradedb?serverTimezone=UTC&characterEncoding=UTF-8&useSSL=false&allowPublicKeyRetrieval=true
     username: root
     password: 1234
     driver-class-name: com.mysql.cj.jdbc.Driver
