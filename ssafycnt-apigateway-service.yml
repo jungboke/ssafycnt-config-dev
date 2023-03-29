@@ -11,19 +11,18 @@ server:
 #   ui:
 #     scheme: https
 
-
 eureka:
   client:
     register-with-eureka: true
     fetch-registry: true
     service-url:
-      defaultZone: http://172.26.2.118:8761/eureka
+      defaultZone: http://127.0.0.1:8761/eureka
 
 spring:
   application:
     name: ssafycnt-apigateway-service
   rabbitmq:
-    host: 172.26.2.118
+    host: 127.0.0.1
     port: 5672
     username: guest
     password: guest
@@ -66,7 +65,6 @@ management:
     web:
       exposure:
         include: refresh, health, beans, busrefresh, info, metrics, prometheus
-
 # springfox:
 #   documentation:
 #     swagger-ui:
